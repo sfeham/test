@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css%22%3E">
+    <script src="https://kit.fontawesome.com/5f23591254.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+    <link rel="stylesheet" href="johnny.css">
+</head>
+<body>
+
+    <nav>
+        <h1><img src="https://www.arngren.net/Cutout_2.gif">
+            ARNGREN</h1>
+        <div class="onglets">
+            <p class="link">Achat</p>
+            <p class="link">Vente</p>
+            <a href="contact.html"><p class="link">Contact</p></a>
+            <form>
+                <input type="search" placeholder="Rechercher">
+            </form>
+            <p><i class="fa-solid fa-heart"></i></p>
+            <p><i class="fa-solid fa-cart-shopping"></i></p>
+
+         </div>
+
+    </nav>
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
+    </form>
+    
+</body>
+</html>
