@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;    
+    padding: 0px;
+
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding: 20px;
+    background-color: #fff;
+    position:sticky;
+    top: 0;
+
+}
+nav h1{
+    font-size: 20px;
+}
+.onglets{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+.onglets a, .onglets a:hover, .onglets a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.onglets p{
+font-size: 17px;
+margin-right: 10px;
+cursor: pointer;
+
+
+}
+ .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f2f2f2;
+    outline: none;
+    
+}
+/* Fin de la barre de la navbar*/
+/*Header*/
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+header h1{
+    font-size: 3em;
+    text-align: center;
+
+
+}
+
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+/* fin du header
+
+/* Section principale */
+.main{
+    margin: 3em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* toute les cartes */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em;
+    cursor: pointer;
+
+
+}
+
+div.jojo img{
+max-width: 100%;
+width: 300px;
+
+}
+
+iframe {
+    margin-left: 30%;
+}
+
+/* Pied de page */
+div#footer {
+    margin-top: 100px;
+    background-color: #000;
+    padding: 30px;
+    color: #fff;
+  }
+  
+  div#footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    text-align:center;
+    width: 20px;
+    cursor:pointer;
+  }
+  /* Fin du pied de page */
+
+@media screen and (max-width: 560px)  {
+
+    .cards{
+        max-width: 500px;
+    }
+    iframe {
+        margin-left:0%;
+    }
+}
